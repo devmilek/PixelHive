@@ -1,0 +1,117 @@
+
+/* ---------------- */
+/* Variables        */
+/* ---------------- */
+
+// Headings
+$heading-font-weight: 700 !default;
+//$heading-color: $gray-scale-900 !default;
+
+$heading-2xl-font-size: 4.5rem !default;
+$heading-2xl-line-height: 5.625rem !default;
+
+$heading-xl-font-size: 3.75rem !default;
+$heading-xl-line-height: 4.5rem !default;
+
+$heading-lg-font-size: 3rem !default;
+$heading-lg-line-height: 3.75rem !default;
+
+$heading-md-font-size: 2.25rem !default;
+$heading-md-line-height: 2.75rem !default;
+
+$heading-sm-font-size: 1.875rem !default;
+$heading-sm-line-height: 2.375rem !default;
+
+$heading-xs-font-size: 1.5rem !default;
+$heading-xs-line-height: 2rem !default;
+
+// Texts
+
+//$text-color: $gray-scale-500 !default;
+
+$text-xl-font-size: 1.25rem !default;
+$text-xl-line-height: 1.875rem !default;
+
+$text-lg-font-size: 1.125rem !default;
+$text-lg-line-height: 1.75rem !default;
+
+$text-md-font-size: 1rem !default;
+$text-md-line-height: 1.5rem !default;
+
+$text-sm-font-size: 0.875rem !default;
+$text-sm-line-height: 1.25rem !default;
+
+$text-xs-font-size: 0.75rem !default;
+$text-xs-line-height: 1.125rem !default;
+
+/* ----------------- */
+/* Typography        */
+/* ----------------- */
+
+// Headings
+
+.heading {
+  font-weight: $heading-font-weight;
+  //color: $heading-color;
+
+  font-size: $heading-md-font-size;
+  line-height: $heading-md-line-height;
+
+  // Sizes
+
+  &.is-2xl {
+    font-size: $heading-2xl-font-size;
+    line-height: $heading-2xl-line-height;
+  }
+  &.is-xl {
+    font-size: $heading-xl-font-size;
+    line-height: $heading-xl-line-height;
+  }
+  &.is-lg {
+    font-size: $heading-lg-font-size;
+    line-height: $heading-lg-line-height;
+  }
+  &.is-md {
+    font-size: $heading-md-font-size;
+    line-height: $heading-md-line-height;
+  }
+  &.is-sm {
+    font-size: $heading-sm-font-size;
+    line-height: $heading-sm-line-height;
+  }
+  &.is-xs {
+    font-size: $heading-xs-font-size;
+    line-height: $heading-xs-line-height;
+  }
+}
+
+// Texts
+.text {
+  //color: $text-color;
+
+  font-size: $text-md-font-size;
+  line-height: $text-md-line-height;
+
+  // Sizes
+
+  &.is-xl {
+    font-size: $text-xl-font-size;
+    line-height: $text-xl-line-height;
+  }
+  &.is-lg {
+    font-size: $text-lg-font-size;
+    line-height: $text-lg-line-height;
+  }
+  &.is-md {
+    font-size: $text-md-font-size;
+    line-height: $text-md-line-height;
+  }
+  &.is-sm {
+    font-size: $text-sm-font-size;
+    line-height: $text-sm-line-height;
+  }
+  &.is-xs {
+    font-size: $text-xs-font-size;
+    line-height: $text-xs-line-height;
+  }
+}

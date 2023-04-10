@@ -1,0 +1,61 @@
+/* color palette from <https://github.com/vuejs/theme> */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-25: #F6FEF9;
+  --primary-50: #ECFDF3;
+  --primary-100: #D1FADF;
+  --primary-200: #A6F4C5;
+  --primary-300: #6CE9A6;
+  --primary-400: #32D583;
+  --primary-500: #12B76A;
+  --primary-600: #039855;
+  --primary-700: #027A48;
+  --primary-800: #05603A;
+  --primary-900: #054F31;
+
+  --gray-25: #FCFCFD;
+  --gray-50: #F9FAFB;
+  --gray-100: #F2F4F7;
+  --gray-200: #EAECF0;
+  --gray-300: #D0D5DD;
+  --gray-400: #98A2B3;
+  --gray-500: #667085;
+  --gray-600: #475467;
+  --gray-700: #344054;
+  --gray-800: #1D2939;
+  --gray-900: #101828;
+
+  --error-25: #FFFBFA;
+    --error-50: #FEF3F2;
+    --error-100: #FEE4E2;
+    --error-200: #FECDCA;
+    --error-300: #FDA29B;
+    --error-400: #F97066;
+    --error-500: #F04438;
+    --error-600: #D92D20;
+    --error-700: #B42318;
+    --error-800: #912018;
+    --error-900: #7A271A;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--gray-900);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
