@@ -1,35 +1,26 @@
-# pixelhive
+# Pixel Hive
 
-This template should help get you started developing with Vue 3 in Vite.
+Photo gallery using firebase and firebase auth
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Screenshots
 
-## Customize configuration
+![App Screenshot](https://i.ibb.co/4RtZ2v7/Zrzut-ekranu-2023-04-10-o-13-24-01.png)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## How to use?
 
-```sh
-npm install
+To start dev server with this project run
+
+```bash
+  npm run dev
 ```
 
-### Compile and Hot-Reload for Development
 
-```sh
-npm run dev
-```
+## To do
 
-### Compile and Minify for Production
+- Better image optimalization
 
-```sh
-npm run build
-```
+- Modal after clink on photo
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- Skeleton loader
